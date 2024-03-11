@@ -22,3 +22,4 @@ fun tipoMaiorIdade(idade: String?) =
     if (idade!!.toInt() >= 18) "Maior idade" else "Menor idade"
 
 data class Carro(val tipo: String, var chassi: String)
+println("Alteração no código")
